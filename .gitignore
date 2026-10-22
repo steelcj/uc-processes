@@ -1,0 +1,26 @@
+# Synced via file-fairy (sync_mode: seed_if_missing) from sat-doc-automa's
+# en/docs/automa/devops/gitignore--release-artifacts.gitignore, for
+# repositories using the release-ceremony scripts (bump-version.py,
+# cut-release.py, publish-release.py, test_publish_release.py,
+# normalize-metadata.py). Only planted if the target has no .gitignore
+# yet, never overwritten after, so a repo's own additions are safe.
+# If a repo already has a .gitignore, reconcile these entries into it
+# by hand once. See en/docs/guides/devops/runbook--cutting-and-publishing-releases-v0-1-0.md.
+
+# publish-release.py's output: tarball, SHA256SUMS, optional GPG .asc
+# signature (confirmed directly from source: DIST_DIR = _HERE / "dist")
+dist/
+
+# Python bytecode cache (confirmed: nothing in these scripts writes here
+# directly, this is CPython's own automatic behavior on every import)
+__pycache__/
+*.pyc
+*.pyo
+
+# Local virtualenv, if a repo sets one up to run these scripts
+.venv/
+venv/
+
+# OS cruft
+.DS_Store
+Thumbs.db
