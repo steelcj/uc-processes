@@ -6,9 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-10-22
+
 ### Added
 
 - README describing uc-processes, who maintains it, how it relates to uc-radar and uc-automa, and its list of processes.
 - Process: From Question to Practice, version 0.1.0, in draft.
 - VERSION file holding 0.1.0.
 - Creative Commons Attribution 4.0 International licence text for the documents.
+
+[Unreleased]: https://github.com/steelcj/uc-processes/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/steelcj/uc-processes/releases/tag/v0.1.0
