@@ -20,6 +20,12 @@ For now, uc-processes stands on its own and is not set up with `uc-automa init`.
 | --- | --- | --- |
 | [Process: From Question to Practice](en-ca/docs/processes/from-question-to-practice-v0.1.0.md) | 0.1.0 | Draft |
 
+## Releases
+
+Releases are cut with `cut-release.py` and published with `publish-release.py`, which uses `bump-version.py` for the version arithmetic. Run `python3 cut-release.py patch`, `minor` or `major` once `CHANGELOG.md`'s `[Unreleased]` section lists the changes, push `main` and the tag, then run `python3 publish-release.py`. `python3 test_publish_release.py` runs the publishing tests offline.
+
+These scripts are unmodified copies from [sat-doc-automa](https://github.com/steelcj/sat-doc-automa) at commit `fc0b72a`. uc-automa 0026 replaces them with `uc-automa release` commands, planned for uc-automa 0.2.0, and they are kept unmodified so that its `retire-copied-scripts` offering can recognise and remove them then.
+
 ## License
 
 The documents in this repository are licensed under the Creative Commons Attribution 4.0 International License, whose text is in [`LICENSE`](LICENSE).
