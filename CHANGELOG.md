@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-10-22
+
 ### Added
 
 - The release scripts `bump-version.py`, `cut-release.py`, `publish-release.py` and `test_publish_release.py`, copied unmodified from sat-doc-automa at commit fc0b72a.
