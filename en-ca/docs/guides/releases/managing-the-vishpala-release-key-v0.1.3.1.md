@@ -57,7 +57,7 @@ ssh-keygen -t ed25519 -a 100 -C vishpala-release -f ~/.ssh/vishpala-release
 - `-C vishpala-release` labels the key so you can recognize it later.
 - `-f ~/.ssh/vishpala-release` keeps it separate from your everyday SSH key.
 
-When asked, set a strong passphrase. A lost passphrase cannot be recovered, so before you go further, store it somewhere safe and separate from the key, such as a password manager. To make one, follow [Generating a strong passphrase](../security/generating-a-strong-passphrase-v0.1.1.md).
+When asked, set a strong passphrase. A lost passphrase cannot be recovered, so before you go further, store it somewhere safe and separate from the key, such as a password manager. To make one, follow [Generating a strong passphrase](generating-a-strong-passphrase-v0.1.1.md).
 
 For a hardware key, plug in the device and run:
 

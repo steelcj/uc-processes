@@ -18,7 +18,7 @@ Just in case your not aware of the current situation...
 >
 > Chris, 2026
 
-This guide sets up what you need once, then shows how to generate a passphrase of seven random words that is strong enough to protect a signing key and simple enough to remember. It was written for the passphrase on the Vishpala release key, described in [Managing the Vishpala release key](../release/managing-the-vishpala-release-key-v0.1.3.md), and works for any secret you must keep in your head, such as the master password of a password manager.
+This guide sets up what you need once, then shows how to generate a passphrase of seven random words that is strong enough to protect a signing key and simple enough to remember. It was written for the passphrase on the Vishpala release key, described in [Managing the Vishpala release key](managing-the-vishpala-release-key-v0.1.3.1.md), and works for any secret you must keep in your head, such as the master password of a password manager.
 
 When you finish, you will have:
 
@@ -179,7 +179,7 @@ These options are described in the KeePassXC user guide [(KeePassXC Team, n.d.)]
 
 ## Use it
 
-For a new release key, enter the passphrase when `ssh-keygen` asks for one, as in [Managing the Vishpala release key](../release/managing-the-vishpala-release-key-v0.1.3.md).
+For a new release key, enter the passphrase when `ssh-keygen` asks for one, as in [Managing the Vishpala release key](managing-the-vishpala-release-key-v0.1.3.1.md).
 
 To put a new passphrase on a key that already exists, change it in place:
 

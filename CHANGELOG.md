@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+### Fixed
+
+- The passphrase and release-key guides link to each other in `en-ca/docs/guides/releases/`, where both live.
+- Links to the uc-radar evaluation lifecycle and metrics follow their move in uc-radar 0.3.0: the README links the current lifecycle, 0.2.0, and Process: From Question to Practice links the versions it cites, 0.1.0 and 0.5.1, under uc-radar's `radar/artifacts/`.
+
 ## [0.2.0] - 2026-10-27
 
 ### Added
@@ -34,7 +39,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - VERSION file holding 0.1.0.
 - Creative Commons Attribution 4.0 International licence text for the documents.
 
-[Unreleased]: https://github.com/steelcj/uc-processes/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/steelcj/uc-processes/compare/v0.2.1...HEAD
+[0.2.1]: https://github.com/steelcj/uc-processes/releases/tag/v0.2.1
 [0.2.0]: https://github.com/steelcj/uc-processes/releases/tag/v0.2.0
 [0.1.1]: https://github.com/steelcj/uc-processes/releases/tag/v0.1.1
 [0.1.0]: https://github.com/steelcj/uc-processes/releases/tag/v0.1.0

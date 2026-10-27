@@ -9,7 +9,7 @@ uc-processes sits above the other two repositories and says how they fit into th
 | Repository | What it does |
 | --- | --- |
 | uc-processes | Says how work is done |
-| [uc-radar](https://github.com/steelcj/uc-radar) | Evaluates options. Its [evaluation lifecycle](https://github.com/steelcj/uc-radar/blob/main/en/docs/radar/uc-radar--evaluation-lifecycle-v0-1-0.md) is the evaluate step of the overall process |
+| [uc-radar](https://github.com/steelcj/uc-radar) | Evaluates options. Its [evaluation lifecycle](https://github.com/steelcj/uc-radar/blob/main/en/docs/radar/uc-radar--evaluation-lifecycle-v0.2.0.md) is the evaluate step of the overall process |
 | [uc-automa](https://github.com/steelcj/uc-automa) | Records what is in force, and offers help: templates, offerings and checks |
 
 For now, uc-processes stands on its own and is not set up with `uc-automa init`. Its documents follow uc-automa's front matter fields and filename rule by hand.

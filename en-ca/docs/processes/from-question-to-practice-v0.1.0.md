@@ -36,7 +36,7 @@ Record how things are done today, with a date, and be honest about it. This is a
 
 ### Evaluate the options
 
-This is the radar's job. Each option is weighed against the Universal Cake Evaluation Metrics <a id="cite-steel-2026b"></a>[(Steel, 2026b)](#ref-steel-2026b), following the [uc-radar evaluation lifecycle](https://github.com/steelcj/uc-radar/blob/main/en/docs/radar/uc-radar--evaluation-lifecycle-v0-1-0.md) <a id="cite-steel-2026a"></a>[(Steel, 2026a)](#ref-steel-2026a). Pay particular attention to agency. Can people leave? Can they move their work elsewhere? Does it run on older systems and over low bandwidth?
+This is the radar's job. Each option is weighed against the Universal Cake Evaluation Metrics <a id="cite-steel-2026b"></a>[(Steel, 2026b)](#ref-steel-2026b), following the [uc-radar evaluation lifecycle](https://github.com/steelcj/uc-radar/blob/main/en/docs/radar/artifacts/uc-radar--evaluation-lifecycle-v0-1-0.md) <a id="cite-steel-2026a"></a>[(Steel, 2026a)](#ref-steel-2026a). Pay particular attention to agency. Can people leave? Can they move their work elsewhere? Does it run on older systems and over low bandwidth?
 
 The outcome is a ring and the reasons for it, not a decision. An evaluation informs the person who decides; it does not decide for them.
 
@@ -67,9 +67,9 @@ Add new dated snapshots from time to time, so the record keeps up with how thing
 
 ## References
 
-<a id="ref-steel-2026a"></a>Steel, C. (2026a). *UC Radar evaluation lifecycle* (Version 0.1.0) [Draft]. Universal Cake. https://github.com/steelcj/uc-radar/blob/main/en/docs/radar/uc-radar--evaluation-lifecycle-v0-1-0.md [Return to citation](#cite-steel-2026a)
+<a id="ref-steel-2026a"></a>Steel, C. (2026a). *UC Radar evaluation lifecycle* (Version 0.1.0) [Draft]. Universal Cake. https://github.com/steelcj/uc-radar/blob/main/en/docs/radar/artifacts/uc-radar--evaluation-lifecycle-v0-1-0.md [Return to citation](#cite-steel-2026a)
 
-<a id="ref-steel-2026b"></a>Steel, C. (2026b). *Universal Cake evaluation metrics* (Version 0.5.1). Universal Cake. https://github.com/steelcj/uc-radar/blob/main/en/docs/radar/universal-cake-evaluation-metrics-v0-5-1.md [Return to citation](#cite-steel-2026b)
+<a id="ref-steel-2026b"></a>Steel, C. (2026b). *Universal Cake evaluation metrics* (Version 0.5.1). Universal Cake. https://github.com/steelcj/uc-radar/blob/main/en/docs/radar/artifacts/universal-cake-evaluation-metrics-v0-5-1.md [Return to citation](#cite-steel-2026b)
 
 ## Changelog
 
