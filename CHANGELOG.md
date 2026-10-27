@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+### Added
+
+- Guide: Managing the Vishpala release key, version 0.1.3, under `en-ca/docs/guides/releases/`, with the earlier 0.1.3 text under `artifacts/`.
+- Guide: Generating a strong passphrase, version 0.1.1, with 0.1.0 under `artifacts/`.
+- Process: Creating a New Repository with uc-automa, version 0.1.0.
+- Process: Licensing a Repository with REUSE, version 0.1.0.
+- Process: Production-ready Droplet for multi-site Caddy and Eleventy hosting, version 0.1.0, and Set up a Production-Ready Droplet.
+- UC Radar Telemetry Trace Procedure, version 0.1.0, in draft, under `en-ca/docs/processes/uc-radar/`.
+
 ## [0.1.1] - 2026-10-22
 
 ### Added
@@ -23,6 +32,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - VERSION file holding 0.1.0.
 - Creative Commons Attribution 4.0 International licence text for the documents.
 
-[Unreleased]: https://github.com/steelcj/uc-processes/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/steelcj/uc-processes/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/steelcj/uc-processes/releases/tag/v0.2.0
 [0.1.1]: https://github.com/steelcj/uc-processes/releases/tag/v0.1.1
 [0.1.0]: https://github.com/steelcj/uc-processes/releases/tag/v0.1.0
