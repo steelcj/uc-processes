@@ -12,7 +12,7 @@ date: 2026-11-07
 - Process: [Process: Running a Claude Code Session](../processes/running-a-claude-code-session-v0.1.0.md)
 - Repositories read: uc-processes, uc-automa (decisions, directives, offerings, layouts, CLI)
 - Status: **the task is complete.** Decisions A–C were made, and *Process: Releasing a Repository* 0.1.0 (Draft) was written. What it leaves open is tracked in uc-processes' new `ROADMAP.md` and, for the release-key principal, in uc-automa's `ROADMAP.md`.
-- Committed on `main` at the owner's request (section 8). Nothing was pushed.
+- Committed on `main` and pushed at the owner's request (section 8).
 
 ## 1. What uc-processes has
 
@@ -155,12 +155,25 @@ Left uncommitted, because it is the owner's work in progress:
 - **uc-processes:** the `en-ca/` → `en/` move. Asked whether to commit only Claude's files or include the move, the owner didn't choose, so only Claude's files were committed. Until the move is committed, the links in `releasing-a-repository-v0.1.0.md` to `en/docs/guides/releases/` and to `licensing-a-repository-with-reuse-v0.1.0.md` and `creating-a-new-repository-with-uc-automa-v0.1.0.md` don't resolve in history. The commit message says so.
 - **uc-automa:** the staged `.gitignore`, an overview rename and a new session note stay staged, and were not part of the commit.
 
-This update to the report is committed separately, after `d60b25b`.
+The report update recording these commits is `a6b8c10`.
+
+### Pushes
+
+The owner asked: "push all three repos". Both pushes were fast-forwards:
+
+| Repository | Pushed | Notes |
+|---|---|---|
+| uc-processes | `206f00e..a6b8c10` | |
+| uc-automa | `20e7fad..a76b8e9` | It also carried the owner's earlier unpushed commit `218bdec`. A push hook in that repository also pushed "2 checkpoint ref(s)" |
+
+The `en-ca/` → `en/` move stayed local, so on GitHub the links noted above don't resolve until it is committed and pushed.
+
+Then the owner asked: "update the session reports, commit and push them, lol". This update was committed and pushed the same way, and is not recorded again.
 
 Open items:
 
-- [ ] Commit the `en-ca/` → `en/` move (owner).
-- [ ] Push, when the owner decides to.
+- [ ] Commit and push the `en-ca/` → `en/` move (owner).
+- [x] Push.
 
 ## Observations left out of scope
 
