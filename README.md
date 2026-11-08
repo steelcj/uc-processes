@@ -18,7 +18,7 @@ For now, uc-processes stands on its own and is not set up with `uc-automa init`.
 
 | Process | Version | Status |
 | --- | --- | --- |
-| [Process: From Question to Practice](en-ca/docs/processes/from-question-to-practice-v0.1.0.md) | 0.1.0 | Draft |
+| [Process: From Question to Practice](en/docs/processes/from-question-to-practice-v0.1.0.md) | 0.1.0 | Draft |
 
 ## Releases
 

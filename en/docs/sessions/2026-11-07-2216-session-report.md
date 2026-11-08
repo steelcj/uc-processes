@@ -172,8 +172,18 @@ Then the owner asked: "update the session reports, commit and push them, lol". T
 
 Open items:
 
-- [ ] Commit and push the `en-ca/` → `en/` move (owner).
+- [x] Commit and push the `en-ca/` → `en/` move. The owner asked: "commit and push the en-ca to en move in uc-processes".
 - [x] Push.
+
+### The `en-ca/` → `en/` move
+
+This was committed together with this update to the report:
+
+- **Moved:** the 10 files under `en-ca/docs/`, to the same paths under `en/docs/`, with content unchanged (four release guides and six processes).
+- **Link fixed:** `README.md`'s link to *Process: From Question to Practice* now points at `en/docs/processes/`. That follows uc-automa 0002 and 0029: a rename updates every link to the file in the same commit.
+- **Now resolve on GitHub:** the release process's links to the release guides, `licensing-a-repository-with-reuse-v0.1.0.md` and `creating-a-new-repository-with-uc-automa-v0.1.0.md`.
+- **Not included:** `en/docs/processes/creating-an-eleventy-theme-v0.1.0.md`, a new file of the owner's with no `en-ca/` copy. It stays uncommitted.
+- **Left alone:** several moved documents still mention `en-ca/` in prose (for example, where new repositories keep their decisions) and in URLs into uc-automa. Those aren't links to the moved files.
 
 ## Observations left out of scope
 
