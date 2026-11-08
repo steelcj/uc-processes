@@ -194,6 +194,8 @@ The owner: "do nothing, if you think this issue needs to be resolved now or very
 
 Then: "create a markdown report on the metadata issue". The report is `uc-automa/en/docs/sessions/2026-11-07--metadata-language-check-v0.1.0.md`.
 
+Then the owner had decision 0040 drafted in uc-automa: `uc-automa/en/docs/decisions/0040--language-root-per-repository-configuration-v0.1.0.md`, Proposed. After "lets drop language checking altogether" and "Just drop the language check. So no, the standalone checker should not check dc:language at all", it sets three things: `en` as uc-automa's root, layout paths checked against the repository's language, and `dc:language` required but never checked.
+
 Open items:
 
 - [x] Commit and push the `en-ca/` → `en/` move. The owner asked: "commit and push the en-ca to en move in uc-processes".
