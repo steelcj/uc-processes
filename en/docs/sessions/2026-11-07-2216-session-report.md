@@ -170,6 +170,19 @@ The `en-ca/` → `en/` move stayed local, so on GitHub the links noted above don
 
 Then the owner asked: "update the session reports, commit and push them, lol". This update was committed and pushed the same way, and is not recorded again.
 
+### Committing everything
+
+The owner asked: "lets commit everything".
+
+| Repository | Commit | What it holds |
+|---|---|---|
+| uc-processes | `5a38160` | *Process: Creating an Eleventy Theme* 0.1.0, with `CHANGELOG.md` entries for it and for the move |
+| uc-automa | `c9e4ea3` | The `en-ca/` → `en/` move (77 renames), the owner's `.gitignore` change, an overview rename, a session note, and a `ROADMAP.md` item |
+
+In uc-automa, the move makes `test_translations_report_nothing_for_en_ca` fail: 45 tests, 2 failures, against 1 before the move. The code still uses `en-ca` as its default language. The owner's call: "sounds like a roadmap issue for updating our script". So it is committed with the failure stated, and tracked in `uc-automa/ROADMAP.md` "Later": a decision record superseding 0004, then the code and tests. The other failure, `test_check_passes_on_uc_automa`, was already failing before the move.
+
+Then the owner asked: "update the session reports and push all three repos". This update and the pushes are not recorded again.
+
 Open items:
 
 - [x] Commit and push the `en-ca/` → `en/` move. The owner asked: "commit and push the en-ca to en move in uc-processes".
