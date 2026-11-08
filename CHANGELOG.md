@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+### Added
+
+- Process: Running a Claude Code Session, version 0.1.0, in draft, under `en/docs/processes/`.
+- Process: Releasing a Repository, version 0.1.0, in draft, under `en/docs/processes/`: the release ceremony decided in uc-automa, with a hand-cut path until uc-automa 0.3.0.
+- `ROADMAP.md`, starting with the open items found while writing the release process.
+
 ## [0.2.1] - 2026-10-27
 
 ### Fixed
