@@ -196,6 +196,8 @@ Then: "create a markdown report on the metadata issue". The report is `uc-automa
 
 Then the owner had decision 0040 drafted in uc-automa: `uc-automa/en/docs/decisions/0040--language-root-per-repository-configuration-v0.1.0.md`, Proposed. After "lets drop language checking altogether" and "Just drop the language check. So no, the standalone checker should not check dc:language at all", it sets three things: `en` as uc-automa's root, layout paths checked against the repository's language, and `dc:language` required but never checked.
 
+Then: "accept 0040 and implement the resolve soon items". 0040 was accepted, 0004 and 0007 were superseded, and the code, schema, directives (both to 0.2.0), roadmap and changelog were updated. uc-automa's check went from 64 findings to 4, which are the owner's content, and 44 of 45 tests pass. The details are in `uc-gradus/en/docs/sessions/2026-11-07-2113-session-report.md`.
+
 Open items:
 
 - [x] Commit and push the `en-ca/` → `en/` move. The owner asked: "commit and push the en-ca to en move in uc-processes".
