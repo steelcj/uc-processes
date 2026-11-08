@@ -185,6 +185,13 @@ Then the owner asked: "update the session reports and push all three repos". Thi
 
 Then: "add the failing test to the uc-automa roadmap". Before the move, `uc-automa check` on uc-automa itself had 2 findings, including `docs/overviews/` (added in `218bdec`), which the `uc-automa` layout doesn't describe. Since the move, it has 132. `uc-automa/ROADMAP.md` "Later" gained an item: fix the move first, then describe `overviews/` in `conf/layouts/uc-automa.yaml`. That change, these report updates and their pushes are not recorded again.
 
+Then: "fix the en/ move in uc-automa code". The owner chose "option 1": `en` as both the folder and the language tag. They also gave a direction for later: "I think metadata checker should be it's own stand alone repository / executable. It should include all of the resources it needs and it should be configurable". Applying option 1 took `uc-automa check` on uc-automa from 132 findings to 63, and turned up two blockers:
+
+- Layout paths marked `source-language` are checked against uc-automa's own text language, so downstream `en-ca` repositories would break on upgrading.
+- The front-matter schema refuses `dc:language: "en"`.
+
+The owner: "do nothing, if you think this issue needs to be resolved now or very soon add it to the roadmap". Both blockers went into `uc-automa/ROADMAP.md`, marked "resolve soon", with the standalone checker as the longer-term item. Then: "keep them, update the session reports, commit and push". So the partial changes were committed and pushed, with 4 failing tests. The details are in `uc-gradus/en/docs/sessions/2026-11-07-2113-session-report.md`.
+
 Open items:
 
 - [x] Commit and push the `en-ca/` → `en/` move. The owner asked: "commit and push the en-ca to en move in uc-processes".
