@@ -192,6 +192,8 @@ Then: "fix the en/ move in uc-automa code". The owner chose "option 1": `en` as 
 
 The owner: "do nothing, if you think this issue needs to be resolved now or very soon add it to the roadmap". Both blockers went into `uc-automa/ROADMAP.md`, marked "resolve soon", with the standalone checker as the longer-term item. Then: "keep them, update the session reports, commit and push". So the partial changes were committed and pushed, with 4 failing tests. The details are in `uc-gradus/en/docs/sessions/2026-11-07-2113-session-report.md`.
 
+Then: "create a markdown report on the metadata issue". The report is `uc-automa/en/docs/sessions/2026-11-07--metadata-language-check-v0.1.0.md`.
+
 Open items:
 
 - [x] Commit and push the `en-ca/` → `en/` move. The owner asked: "commit and push the en-ca to en move in uc-processes".
