@@ -12,7 +12,7 @@ date: 2026-11-07
 - Process: [Process: Running a Claude Code Session](../processes/running-a-claude-code-session-v0.1.0.md)
 - Repositories read: uc-processes, uc-automa (decisions, directives, offerings, layouts, CLI)
 - Status: **the task is complete.** Decisions A–C were made, and *Process: Releasing a Repository* 0.1.0 (Draft) was written. What it leaves open is tracked in uc-processes' new `ROADMAP.md` and, for the release-key principal, in uc-automa's `ROADMAP.md`.
-- Nothing was committed or pushed.
+- Committed on `main` at the owner's request (section 8). Nothing was pushed.
 
 ## 1. What uc-processes has
 
@@ -139,6 +139,28 @@ In uc-automa, only `uc-automa/ROADMAP.md` changed, by one bullet (see 5a).
 - [ ] Decide the release key's allowed-signers principal: a decision record in uc-automa (tracked in `uc-automa/ROADMAP.md` and `uc-processes/ROADMAP.md`).
 - [ ] The remaining items in `uc-processes/ROADMAP.md` "Later", most of which wait on uc-automa 0.3.0.
 - [ ] Optionally list both new processes in `uc-processes/README.md`'s Processes table, once the `en-ca/` to `en/` move is settled.
+
+## 8. Commits
+
+The owner asked: "commit the changes in all three repos". The owner confirmed committing to each repository's own `main`: "Do you mean the changes repo a will be in the main of repo a. If so proceed".
+
+| Repository | Commit | What it holds |
+|---|---|---|
+| uc-processes | `d60b25b` Add release and Claude Code session processes, ROADMAP | Only this session's files: `CHANGELOG.md`, `ROADMAP.md`, `en/docs/processes/releasing-a-repository-v0.1.0.md`, `en/docs/processes/running-a-claude-code-session-v0.1.0.md`, `en/docs/sessions/2026-11-07-2209-session-prompt.md`, and this report |
+| uc-automa | `a76b8e9` Roadmap: decide the allowed-signers principal before release-keys/ | Only `ROADMAP.md`, one line, committed with `git commit -- ROADMAP.md` |
+| uc-gradus | `26e7566` | That repository's session work, recorded in `uc-gradus/en/docs/sessions/2026-11-07-2113-session-report.md` |
+
+Left uncommitted, because it is the owner's work in progress:
+
+- **uc-processes:** the `en-ca/` → `en/` move. Asked whether to commit only Claude's files or include the move, the owner didn't choose, so only Claude's files were committed. Until the move is committed, the links in `releasing-a-repository-v0.1.0.md` to `en/docs/guides/releases/` and to `licensing-a-repository-with-reuse-v0.1.0.md` and `creating-a-new-repository-with-uc-automa-v0.1.0.md` don't resolve in history. The commit message says so.
+- **uc-automa:** the staged `.gitignore`, an overview rename and a new session note stay staged, and were not part of the commit.
+
+This update to the report is committed separately, after `d60b25b`.
+
+Open items:
+
+- [ ] Commit the `en-ca/` → `en/` move (owner).
+- [ ] Push, when the owner decides to.
 
 ## Observations left out of scope
 
