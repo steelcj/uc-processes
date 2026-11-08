@@ -183,6 +183,8 @@ In uc-automa, the move makes `test_translations_report_nothing_for_en_ca` fail: 
 
 Then the owner asked: "update the session reports and push all three repos". This update and the pushes are not recorded again.
 
+Then: "add the failing test to the uc-automa roadmap". Before the move, `uc-automa check` on uc-automa itself had 2 findings, including `docs/overviews/` (added in `218bdec`), which the `uc-automa` layout doesn't describe. Since the move, it has 132. `uc-automa/ROADMAP.md` "Later" gained an item: fix the move first, then describe `overviews/` in `conf/layouts/uc-automa.yaml`. That change, these report updates and their pushes are not recorded again.
+
 Open items:
 
 - [x] Commit and push the `en-ca/` → `en/` move. The owner asked: "commit and push the en-ca to en move in uc-processes".
