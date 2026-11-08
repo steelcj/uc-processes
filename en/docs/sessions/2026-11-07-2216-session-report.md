@@ -183,6 +183,7 @@ This was committed together with this update to the report:
 - **Link fixed:** `README.md`'s link to *Process: From Question to Practice* now points at `en/docs/processes/`. That follows uc-automa 0002 and 0029: a rename updates every link to the file in the same commit.
 - **Now resolve on GitHub:** the release process's links to the release guides, `licensing-a-repository-with-reuse-v0.1.0.md` and `creating-a-new-repository-with-uc-automa-v0.1.0.md`.
 - **Not included:** `en/docs/processes/creating-an-eleventy-theme-v0.1.0.md`, a new file of the owner's with no `en-ca/` copy. It stays uncommitted.
+- **Committed afterwards:** the owner then asked to "commit everything". The theme process was committed separately, with `CHANGELOG.md` gaining entries for it and for the move.
 - **Left alone:** several moved documents still mention `en-ca/` in prose (for example, where new repositories keep their decisions) and in URLs into uc-automa. Those aren't links to the moved files.
 
 ## Observations left out of scope

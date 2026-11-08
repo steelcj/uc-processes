@@ -11,6 +11,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Process: Running a Claude Code Session, version 0.1.0, in draft, under `en/docs/processes/`.
 - Process: Releasing a Repository, version 0.1.0, in draft, under `en/docs/processes/`: the release ceremony decided in uc-automa, with a hand-cut path until uc-automa 0.3.0.
 - `ROADMAP.md`, starting with the open items found while writing the release process.
+- Process: Creating an Eleventy Theme, version 0.1.0, in draft, under `en/docs/processes/`.
+
+### Changed
+
+- Documentation moved from `en-ca/` to `en/`, with the README's link updated.
 
 ## [0.2.1] - 2026-10-27
 
